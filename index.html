@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Blog of Andrij Ivashkevych</title>
+  <meta charset="UTF-8">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/global.css">
 </head>
@@ -60,11 +61,11 @@
         <h2>
 	      Tags
 	    </h2>
-	    <ul>
-	      <li>Reflections</li>
-	      <li>Page proofs</li>
-	      <li>IE</li>
-	    </ul>
+	    <nav class="horizontal">
+	      <a class="horizontal__link" href="reflection.html"><i>Reflections</i></a>
+	      <a class="horizontal__link" href="page-proofs.html"><i>Page proofs</i></a>
+		  <a class="horizontal__link" href="ie.html"><i>IE</i></a>
+	    </nav>
       </section>
 	</aside>
   <!--End Tags-->
@@ -140,11 +141,11 @@
         <h2>
 	      Tags
 	    </h2>
-	    <ul>
-	      <li>Reflections</li>
-	      <li>Page proofs</li>
-	      <li>IE</li>
-	    </ul>
+	    <nav class="horizontal">
+	      <a class="horizontal__link" href="reflection.html"><i>Reflections</i></a>
+	      <a class="horizontal__link" href="page-proofs.html"><i>Page proofs</i></a>
+		  <a class="horizontal__link" href="ie.html"><i>IE</i></a>
+	    </nav>
       </section>
 	</aside>
   <!--End Tags-->
@@ -202,42 +203,31 @@
     <h2>
 	  Tags
 	</h2>
-	<nav>
-	  <a href="#">Page proofs</a>
-	  <a href="#">IE</a>
-	  <a href="#">Reflections</a>
-	  <a href="#">More code</a>
-	</nav>
+	<section>
+	    <nav class="vertical">
+	      <a class="vertical__link" href="reflection.html"><i>Reflections</i></a>
+	      <a class="vertical__link" href="page-proofs.html"><i>Page proofs</i></a>
+		  <a class="vertical__link" href="ie.html"><i>IE</i></a>
+	    </nav>
+      </section>
   </section>
 </aside>
 <!--End Tags-->
+<!--Start Footer-->
 <footer class="footer">
  <!--Start Tags-->
  <aside>
-  <section>
-    <h2>
-	  Tags
-	</h2>
-	<nav>
-	  <a href="#">Page proofs</a>
-	  <a href="#">IE</a>
-	  <a href="#">Reflections</a>
-	  <a href="#">More code</a>
-	</nav>
-  </section>
   <!--Start Contact Details-->
   <section>
-    <h2>
-	  Tags
-	</h2>
-	<nav>
-	  <p>Phone:<a href="skype:+38(093)6084458?call">+38(093)6084458</a></p>
-	  <p>Skype:<a href="skype:andrei_ivashkevich">Andrij Ivashkevych</a></p>
-	  <p>Email:<a href="mailto:Andrii_ivashkevych@epam.com">Andrii_Ivashkevych@epam.com</a><p>
+	<nav class="footer__footNav">
+	  <a href="skype:+38(093)6084458?call" class="footer__footNav footNav__link">+38(093)6084458</a>
+	  <a href="skype:andrei_ivashkevich" class="footer__footNav footNav__link">Andrij Ivashkevych</a>
+	  <a href="mailto:Andrii_ivashkevych@epam.com" class="footer__footNav footNav__link">Andrii_Ivashkevych@epam.com</a>
 	</nav>
   </section>
   <!--End Contact Details-->
 </aside>
  <!--End Tags-->
 </footer>
+<!--End Footer-->
 </html>
