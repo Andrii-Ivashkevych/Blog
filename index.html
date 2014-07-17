@@ -6,30 +6,30 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/global.css">
 </head>
-<!--Start Page Header-->
+<!--Page Header-->
 <header class="header">
-<!--Start Logo and About author-->
+<!--Logo and About author-->
 <div class="wrapper">
   <nav>
     <a href="index.html" class="wrapper__logo"><i>Andrij Ivashkevych</i></a>
-	<a href="about_author.html">About author</a>
+	<a href="about_author.html" class="wrapper__logo"><i class="wrapper__logo logo__author">About author</i></a>
   </nav>
-  <label for="search">Search:</label>
-  <input id="search" type="text">
+    <input id="search" type="text" class="search" placeholder="Search">
 </div>
 <!--End Logo and About author-->
 </header>
 <!--End Page Header-->
-<!--Start Main Content-->
-<main>
+
+<!--Main Content-->
+<main class="content">
   <section>
     <article>
       <h2>
-	    Article heading
+	    First story
 	  </h2>
-	  <time>
+	  <p>
 	    July by 15 2014
-	  </time>
+	  </p>
 	  <p>Lorem ipsum dolor sit amet, consectetur 
 	  adipiscing elit. Maecenas id lacus ut lacus interdum 
 	  blandit. Proin laoreet mattis vulputate. Vivamus porttitor 
@@ -55,24 +55,22 @@
 	  mi fringilla non. Phasellus placerat enim et elit rutrum, nec 
 	  imperdiet ante lobortis.</p>
 	</article>
-  <!--Start Tags-->
+	
+  <!--Tags-->
 	<aside>
-	  <section>
-        <h2>
-	      Tags
-	    </h2>
 	    <nav class="horizontal">
 	      <a class="horizontal__link" href="reflection.html"><i>Reflections</i></a>
 	      <a class="horizontal__link" href="page-proofs.html"><i>Page proofs</i></a>
 		  <a class="horizontal__link" href="ie.html"><i>IE</i></a>
 	    </nav>
-      </section>
 	</aside>
   <!--End Tags-->
-    <!--Start Count comments-->
+  
+    <!--Count comments-->
     <div class="count-comments"></div>
     <!--End Count comments-->
-	<!--Start Social Links-->
+	
+	<!--Social Links-->
 	<section class="">
 	  <a href="#" class="">
 	    <i>
@@ -97,15 +95,15 @@
 	</section>
 	<!--End Social Links-->
   </section>
-</main>
 <!--End Main Content-->
 
-<!--Start Main Content-->
-<main>
+<hr>
+
+<!--Main Content-->
   <section>
     <article>
       <h2>
-	    Article heading
+	    Second story
 	  </h2>
 	  <time>
 	    July by 15 2014
@@ -135,12 +133,10 @@
 	  mi fringilla non. Phasellus placerat enim et elit rutrum, nec 
 	  imperdiet ante lobortis.</p>
 	</article>
-  <!--Start Tags-->
+	
+  <!--Tags-->
 	<aside>
 	  <section>
-        <h2>
-	      Tags
-	    </h2>
 	    <nav class="horizontal">
 	      <a class="horizontal__link" href="reflection.html"><i>Reflections</i></a>
 	      <a class="horizontal__link" href="page-proofs.html"><i>Page proofs</i></a>
@@ -149,10 +145,12 @@
       </section>
 	</aside>
   <!--End Tags-->
-    <!--Start Count comments-->
+  
+    <!--Count comments-->
     <div class="count-comments"></div>
     <!--End Count comments-->
-	<!--Start Social Links-->
+	
+	<!--Social Links-->
 	<section class="">
 	  <nav>
 	    <a href="#" class="">
@@ -183,20 +181,27 @@
 <!--End Main Content-->
 
 
+
+
 <!-- Start Headings-->
 <aside>
-  <section>
-    <h2>
+  <section class="headings">
+    <h2 >
 	  Headings
 	</h2>
-	<nav>
+	<nav class="headings__link">
 	  <a href="#">Page proofs</a>
-	  <a href="">JavaScript</a>
-	  <a href="">Images</a>
+	  <a href="#">JavaScript</a>
+	  <a href="#">Images</a>
 	</nav>
   </section>
 </aside>
 <!--End Headings-->
+
+
+
+
+
 <!--Start Tags-->
 <aside>
   <section>
