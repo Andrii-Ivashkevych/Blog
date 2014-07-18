@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'icons';
+  src: url('../font/icons.eot?4925010');
+  src: url('../font/icons.eot?4925010#iefix') format('embedded-opentype'),
+       url('../font/icons.woff?4925010') format('woff'),
+       url('../font/icons.ttf?4925010') format('truetype'),
+       url('../font/icons.svg?4925010#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.icons  {
+  width: 300px;
+  margin: 0 auto;
+  list-style: none;
+}
+.icons:after  {
+  clear: both;
+  display: table;
+  content: "";
+}
+.icons__item  {
+  float: left;
+  width: 35px;
+  height: 35px;
+  margin: 1px;
+  border-radius: 50%;
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(0,0,0,0.1) 100%);
+  box-shadow: 0 2px 2px rgba(255,255,232,.5) inset, 1px 2px 4px rgba(0,0,0,.4);
+  text-align: center;
+  line-height: 35px;
+  font-size: 0;
+}
+.icons__item a  {
+  display: block;
+  height: 100%;
+  border-radius: 50%;
+}
+.icons__item:hover  {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, .3) 100%); 
+}
+.icons__item:hover i:before  {
+  -webkit-transform: scale(1.125) rotate(3deg);
+  -ms-transform: scale(1.125) rotate(3deg);
+  transform: scale(1.125) rotate(3deg);
+}
+.icons__item_fon  {  background-color: rgb(0, 0, 255);  }
+.fontello:before  {
+  font: normal normal 10px/1em "icons";
+  display: inline-block;
+  vertical-align: middle;
+  color: #fff;
+  text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, .1);
+}
+.fontello-twitter:before  {  content: '\e803';  }
+.fontello-face-book:before  {  content: '\e804';  }
+.fontello-odnoklassniki:before  {  content: '\e805';  }
+.fontello-vcontakte:before  {  content: '\e806';  }
