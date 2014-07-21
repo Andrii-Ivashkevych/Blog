@@ -116,10 +116,10 @@
 }
 .vertical__link  {
 	width: 70px;
-	height: 15px;
-	line-height: 15px;
+	height: 25px;
+	line-height: 25px;
 	text-align: center;
-	margin: 5px;
+	margin: 25px 0px 25px 0px;
     display: block;
 	color: rgb(119,104,71);
 	background-color: #B8B8B8;
@@ -144,18 +144,31 @@
 .headings  {
   display: table;
   content: "";
+  width: 50px;
 }
 .headings  {
   padding-left: 50px;
 }
 .headings__link  {
   clear: both;
+  width: 175px;
+}
+.headings__reference  {
+  text-decoration: none;
+  color: #666633;
+  line-height: 50px;
+  font-size: 25px;
+}
+.headings__reference:hover  {
+  text-decoration: none;
+  color: #FFFFFF;
+  background: #666633;
 }
 h2  {
   font: normal 22px/18px Helvetica, Verdana, sans-serif;
   font-variant: small-caps;
   font-weight: bold;
-  padding: 5px;
+  padding: 10px 0px 10px 0px;
 }
 hr  {
   width: 100%;
