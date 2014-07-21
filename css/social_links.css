@@ -9,7 +9,7 @@
   font-style: normal;
 }
 .icons  {
-  width: 300px;
+  width: 350px;
   margin: 0 auto;
   list-style: none;
 }
@@ -20,20 +20,20 @@
 }
 .icons__item  {
   float: left;
-  width: 35px;
-  height: 35px;
-  margin: 1px;
-  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  margin: 3px;
+  border-radius: 15%;
   background-image: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(0,0,0,0.1) 100%);
-  box-shadow: 0 2px 2px rgba(255,255,232,.5) inset, 1px 2px 4px rgba(0,0,0,.4);
+  box-shadow: 0px 2px 2px rgba(255,255,232,.5) inset, 1px 2px 4px rgba(0,0,0,.4);
   text-align: center;
-  line-height: 35px;
+  line-height: 25px;
   font-size: 0;
 }
 .icons__item a  {
   display: block;
   height: 100%;
-  border-radius: 50%;
+  border-radius: 15%;
 }
 .icons__item:hover  {
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, .3) 100%); 
@@ -43,15 +43,36 @@
   -ms-transform: scale(1.125) rotate(3deg);
   transform: scale(1.125) rotate(3deg);
 }
-.icons__item_fon  {  background-color: rgb(0, 0, 255);  }
+.icons__item_fon  {  background-color: #B8B8B8; }
 .fontello:before  {
-  font: normal normal 10px/1em "icons";
+  font: normal normal 15px/1em "icons";
   display: inline-block;
   vertical-align: middle;
   color: #fff;
   text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, .1);
 }
-.fontello-twitter:before  {  content: '\e803';  }
-.fontello-face-book:before  {  content: '\e804';  }
-.fontello-odnoklassniki:before  {  content: '\e805';  }
-.fontello-vcontakte:before  {  content: '\e806';  }
+.fontello-twitter:before  {  content: '\e800';  }
+.fontello-face-book:before  {  content: '\e801';  }
+.fontello-odnoklassniki:before  {  content: '\e802';  }
+.fontello-vcontakte:before  {  content: '\e803';  }
+.fontello-mobile:before  {  content: '\e804';  }
+.fontello-skype:before  {  content: '\e805';  }
+.fontello-mail:before  {  content: '\e806';  }
+.social_links  {
+  width: 125px;
+  height: 35px;
+  background:  rgb(216,216,216);
+  border-radius: 2.5%;
+}
+.footer_links  {
+  margin: 0 auto;
+  width: 450px;
+  height: 35px;
+}
+.footer_links .icons__item  {
+  margin: 5px;
+  float: left;
+}
+.footer_links nav.icons  {
+  width: 250px;
+}
