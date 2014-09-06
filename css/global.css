@@ -168,6 +168,11 @@ hr  {
   width: 100%;
   color: rgb(119, 104, 71);
 }
+.short  {
+  width: 230px;
+  margin-left: 0;
+  color: rgb(119, 104, 71);
+}
 p  {
   text-align: justify;
 }
