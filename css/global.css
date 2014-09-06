@@ -1,5 +1,6 @@
 .wrapper_page  {
   width: 960px;
+  /*height: 100%;*/
   margin: 0 auto;
 }
 .header  {
@@ -21,13 +22,12 @@
   color: #B80000;
   text-shadow: 2px 2px 1px rgba(0, 0, 0, .25);
 }
-.wrapper__logo  {
+.wrapper__logo i  {
   font-size: 28px;
   font-family: Helvetica, Verdana, sans-serif;
   color: rgb(119, 104, 71);
   position: relative;
   top: .18em;
-  margin-left: 55px;
   display: inline-block;
   text-shadow: none;  
 }
@@ -166,11 +166,6 @@ h2  {
 }
 hr  {
   width: 100%;
-  color: rgb(119, 104, 71);
-}
-.short {
-  width: 230px;
-  margin-left: 0;
   color: rgb(119, 104, 71);
 }
 p  {
