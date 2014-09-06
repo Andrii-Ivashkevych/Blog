@@ -1,6 +1,5 @@
 .wrapper_page  {
   width: 960px;
-  /*height: 100%;*/
   margin: 0 auto;
 }
 .header  {
@@ -104,8 +103,9 @@
 }
 .vertical  {
   float: left;
-  width: 210px;
+  width: 260px;
   height:75px;
+  margin-left: 50px;
 }
 .vertical:after  {
  clear: both;
@@ -118,7 +118,7 @@
   float: left;
   line-height: 15px;
   text-align: center;
-  margin: 5px 5px 5px 0;
+  margin: 5px 5px 5px 10px;
   display: block;
   color: rgb(119,104,71);
   background-color: #B8B8B8;
@@ -141,12 +141,17 @@
   content: "";
   width: 50px;
 }
-.headings  {
+/*.headings  {
   padding-left: 50px;
-}
+}*/
 .headings__link  {
   clear: both;
-  width: 175px;
+  width: 260px;
+  margin-left: 50px;
+  text-align: right;
+}
+.headings h2  {
+  text-align: center;
 }
 .headings__reference  {
   text-decoration: none;
