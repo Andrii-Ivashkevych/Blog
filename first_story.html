@@ -1,163 +1,181 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head>
-  <title>Blog of Andrij Ivashkevych</title>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/global.css">
-  <link rel="stylesheet" href="css/social_links.css">
+    <title>Blog of Andrij Ivashkevych</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/social_links.css">
+    <!--<script>
+      document.createElement("header");
+      document.createElement("nav");
+      document.createElement("article");
+      document.createElement("footer");
+    </script>-->
 </head>
-<!--Page Header-->
-  <header class="header">
-<!--Logo and About author-->
-    <div class="wrapper">
-      <nav>
-        <a href="index.html" class="wrapper__logo"><i>Andrij Ivashkevych</i></a>
-	    <a href="about_author.html" class="wrapper__logo"><i class="wrapper__logo logo__author">About author</i></a>
-       </nav>
-       <input id="search" type="text" class="search" placeholder="Search">
-    </div>
-<!--End Logo and About author-->
-  </header>
-  <div class="wrapepr_page">
-<!--End Page Header-->
-<!--Main Content-->
+<body>
+
+<!--Beginning class wrapper-->
+<div class="wrapper">
+    <header>
+        <h1 class="logotype">Andrij Ivashkevych</h1>
+        <nav>
+            <a href="author.html" class="author">About author</a>
+            <input type="text" id="search" class="search" placeholder="Search">
+        </nav>
+    </header>
+    <!--Beginning class content. This class has general content.-->
     <main class="content">
-      <section>
-        <article>
-          <h2>First story</h2>
-	      <p class="publication-data" data-time="15-07-14">July by 15 2014</p>
-	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id lacus ut lacus interdum 
-	            blandit. Proin laoreet mattis vulputate. Vivamus porttitor ut elit sit amet semper. Fusce bibendum commodo 
-	            sodales. Maecenas ut massa non augue facilisis faucibus sit amet ut massa. Fusce pharetra blandit lectus, at ullamcorper 
-	            mi fringilla non. Phasellus placerat enim et elit rutrum, nec imperdiet ante lobortis.</p>
-	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id lacus ut lacus interdum 
-	            blandit. Proin laoreet mattis vulputate. Vivamus porttitor ut elit sit amet semper. Fusce bibendum commodo 
-	            sodales. Maecenas ut massa non augue facilisis faucibus sit amet ut massa. Fusce pharetra blandit lectus, at ullamcorper 
-	            mi fringilla non. Phasellus placerat enim et elit rutrum, nec imperdiet ante lobortis.</p>
-	     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id lacus ut lacus interdum 
-	           blandit. Proin laoreet mattis vulputate. Vivamus porttitor ut elit sit amet semper. Fusce bibendum commodo 
-	           sodales. Maecenas ut massa non augue facilisis faucibus sit amet ut massa. Fusce pharetra blandit lectus, at ullamcorper 
-	           mi fringilla non. Phasellus placerat enim et elit rutrum, nec imperdiet ante lobortis.</p>
-	    </article>
-	
-<!--Tags-->
-	  <aside>
-	    <nav class="horizontal">
-	      <a class="horizontal__link" href="reflection.html"><i>Reflections</i></a>
-	      <a class="horizontal__link" href="page-proofs.html"><i>Page proofs</i></a>
-		  <a class="horizontal__link" href="ie.html"><i>IE</i></a>
-	    </nav>
-	  </aside>
-<!--End Tags-->
-<!--Count comments-->
-      <div class="count-comments"></div>
-<!--End Count comments-->
-<!--Social Links-->
-	  <section class="social_links">
-	    <nav class="icons">
-	      <a href="http://twitter.com" class="icons__item icons__item_fon"><i class="fontello fontello-twitter">Twitter</i></a>
-	      <a href="http://facebook.com" class="icons__item icons__item_fon"><i class="fontello fontello-face-book">FaceBook</i></a>
-	      <a href="http://odnoklassniki.ru" class="icons__item icons__item_fon"><i class="fontello fontello-odnoklassniki">Odnoklassniki</i></a>
-	      <a href="http://vcontakte.com.ua" class="icons__item icons__item_fon"><i class="fontello fontello-vcontakte">VC</i></a>
-		 </nav>
-	  </section>
-<!--End Social Links-->
-      </section><!--End section main class="content"-->
-<!--End Main Content-->
-<hr><!--Horizontal line between topics.-->
-<!--Main Content-->
-      <section>
-        <article>
-          <h2>Second story</h2>
-	      <p class="publication-data" data-time="15-07-14">July by 15 2014</p>
-	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id lacus ut lacus interdum 
-	            blandit. Proin laoreet mattis vulputate. Vivamus porttitor ut elit sit amet semper. Fusce bibendum commodo 
-	            sodales. Maecenas ut massa non augue facilisis faucibus sit amet ut massa. Fusce pharetra blandit lectus, at ullamcorper 
-	            mi fringilla non. Phasellus placerat enim et elit rutrum, nec imperdiet ante lobortis.</p>
-	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id lacus ut lacus interdum 
-	           blandit. Proin laoreet mattis vulputate. Vivamus porttitor ut elit sit amet semper. Fusce bibendum commodo 
-	           sodales. Maecenas ut massa non augue facilisis faucibus sit amet ut massa. Fusce pharetra blandit lectus, at ullamcorper 
-	           mi fringilla non. Phasellus placerat enim et elit rutrum, nec imperdiet ante lobortis.</p>
-	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id lacus ut lacus interdum 
-	           blandit. Proin laoreet mattis vulputate. Vivamus porttitor ut elit sit amet semper. Fusce bibendum commodo 
-	           sodales. Maecenas ut massa non augue facilisis faucibus sit amet ut massa. Fusce pharetra blandit lectus, at ullamcorper 
-	           mi fringilla non. Phasellus placerat enim et elit rutrum, nec imperdiet ante lobortis.</p>
-	    </article>
-<!--Tags horizontal-->
-	  <aside>
-	    <section>
-	      <nav class="horizontal">
-	        <a class="horizontal__link" href="reflection.html"><i>Reflections</i></a>
-	        <a class="horizontal__link" href="page-proofs.html"><i>Page proofs</i></a>
-		    <a class="horizontal__link" href="ie.html"><i>IE</i></a>
-	      </nav>
+        <section>
+            <article>
+                <h2 class="title">First story</h2>
+                <p class="publication-data" data-time="15-07-14">July by 15 2014</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id lacus ut lacus interdum
+                    blandit. Proin laoreet mattis vulputate. Vivamus porttitor ut elit sit amet semper. Fusce bibendum commodo
+                    sodales. Maecenas ut massa non augue facilisis faucibus sit amet ut massa. Fusce pharetra blandit lectus, at ullamcorper
+                    mi fringilla non. Phasellus placerat enim et elit rutrum, nec imperdiet ante lobortis.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id lacus ut lacus interdum
+                    blandit. Proin laoreet mattis vulputate. Vivamus porttitor ut elit sit amet semper. Fusce bibendum commodo
+                    sodales. Maecenas ut massa non augue facilisis faucibus sit amet ut massa. Fusce pharetra blandit lectus, at ullamcorper
+                    mi fringilla non. Phasellus placerat enim et elit rutrum, nec imperdiet ante lobortis.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id lacus ut lacus interdum
+                    blandit. Proin laoreet mattis vulputate. Vivamus porttitor ut elit sit amet semper. Fusce bibendum commodo
+                    sodales. Maecenas ut massa non augue facilisis faucibus sit amet ut massa. Fusce pharetra blandit lectus, at ullamcorper
+                    mi fringilla non. Phasellus placerat enim et elit rutrum, nec imperdiet ante lobortis.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id lacus ut lacus interdum
+                    blandit. Proin laoreet mattis vulputate. Vivamus porttitor ut elit sit amet semper. Fusce bibendum commodo
+                    sodales. Maecenas ut massa non augue facilisis faucibus sit amet ut massa. Fusce pharetra blandit lectus, at ullamcorper
+                    mi fringilla non. Phasellus placerat enim et elit rutrum, nec imperdiet ante lobortis.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id lacus ut lacus interdum
+                    blandit. Proin laoreet mattis vulputate. Vivamus porttitor ut elit sit amet semper. Fusce bibendum commodo
+                    sodales. Maecenas ut massa non augue facilisis faucibus sit amet ut massa. Fusce pharetra blandit lectus, at ullamcorper
+                    mi fringilla non. Phasellus placerat enim et elit rutrum, nec imperdiet ante lobortis.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id lacus ut lacus interdum
+                    blandit. Proin laoreet mattis vulputate. Vivamus porttitor ut elit sit amet semper. Fusce bibendum commodo
+                    sodales. Maecenas ut massa non augue facilisis faucibus sit amet ut massa. Fusce pharetra blandit lectus, at ullamcorper
+                    mi fringilla non. Phasellus placerat enim et elit rutrum, nec imperdiet ante lobortis.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id lacus ut lacus interdum
+                    blandit. Proin laoreet mattis vulputate. Vivamus porttitor ut elit sit amet semper. Fusce bibendum commodo
+                    sodales. Maecenas ut massa non augue facilisis faucibus sit amet ut massa. Fusce pharetra blandit lectus, at ullamcorper
+                    mi fringilla non. Phasellus placerat enim et elit rutrum, nec imperdiet ante lobortis.</p>
+
+            <!--Beginning comment-->
+            <article class="comments">
+              <header>Comment from <a href="#">Author name</a> at <time datetime="2014-09-08T12:50Z">12:50 on 9 September 2014</time></header>
+              <p>In this field we add some text.</p>
+            </article>
+            <!--End commnet-->
+
+            <!--Beginning comment form-->
+                <div id="comments-container" class="comments-container">
+                </div>
+                <form name="comment-form" id="comment-form" class="formControl">
+                    <label for="comment-form" class="invitation">Please, enter your comment</label>
+                    <div>
+                        <input 	name="name" type="text" id="user-name" class="user-name" placeholder="Enter your name" class="required" title="Please, enter your name."/>
+                        <label for="user-name">Your name</label>
+                    </div>
+                    <div>
+                        <input 	name="email" type="email" id="user-email" class="user-email" placeholder="Enter your email" class="required" title="Please, enter your email."/>
+                        <label for="user-name">Your email</label>
+                    </div>
+                    <div>
+                        <textarea 	id="comment-text" name="comment" class="user-comment" placeholder="Enter your comment" class="required">
+                        </textarea>
+                    </div>
+                    <div>
+                        <input id="add-comment" type="button" value="Add" class="add-comment"/>
+                    </div>
+                </form>
+            <!--End comment form-->
+
+            </article>
         </section>
-	  </aside>
-<!--End Tags-->  
-<!--Count comments-->
-      <div class="count-comments"></div>
-<!--End Count comments-->	
-<!--Social Links-->
-	  <section class="social_links">
-	    <nav class="icons">
-	      <a href="http://twitter.com" class="icons__item icons__item_fon"><i class="fontello fontello-twitter">Twitter</i></a>
-	      <a href="http://facebook.com" class="icons__item icons__item_fon"><i class="fontello fontello-face-book">FaceBook</i></a>
-	      <a href="http://odnoklassniki.ru" class="icons__item icons__item_fon"><i class="fontello fontello-odnoklassniki">Odnoklassniki</i></a>
-	      <a href="http://vcontakte.com.ua" class="icons__item icons__item_fon"><i class="fontello fontello-vcontakte">VC</i></a>
-		 </nav>
-	  </section>
-<hr><!--Horizontal line between topics.-->
-<!--End Social Links-->
-      </section>
-    </main>
-<!--End Main Content-->
-<!-- Start Headings-->
+        </main>
+    <!--Beginning right SideBar Heading-->
     <aside>
-      <section class="headings">
-        <h2 >Heading</h2>
-	    <nav class="headings__link">
-	      <a href="page_proofs.html" class="headings__link headings__reference">Page proofs</a>
-	      <a href="javascript.html" class="headings__link headings__reference">JavaScript</a>
-	      <a href="images.html" class="headings__link headings__reference">Images</a>
-	    </nav>
-		<hr><!--Horizontal line between topics.-->
-      </section>
+        <section class="headings">
+            <h2 >Heading</h2>
+            <nav class="headings__link">
+                <a href="page_proofs.html" class="headings__link headings__reference">Page proofs</a>
+                <a href="javascript.html" class="headings__link headings__reference">JavaScript</a>
+                <a href="images.html" class="headings__link headings__reference">Images</a>
+            </nav>
+            <hr class="middle">
+        </section>
     </aside>
-<!--End Headings-->
-<!--Start Tags-->
+    <!--End right SideBar Heading-->
+    <!--Beginning right SideBar Tags-->
     <aside>
-      <section class="headings">
-        <h2>Tags</h2>
-	    <nav class="vertical">
-	      <a class="vertical__link" href="reflection.html"><i>Reflections</i></a>
-	      <a class="vertical__link" href="page-proofs.html"><i>Page proofs</i></a>
-		  <a class="vertical__link" href="ie.html"><i>IE</i></a>
-	    </nav>
-      </section>
-    </aside><!--End Tags-->
-</div><!--End class="wrapper-page"-->
-<!--Start Footer-->
-<footer class="footer">
- <!--Start Tags-->
- <aside>
-  <!--Start Contact Details-->
-  <section>
-	<section class="footer_links">
-	  <nav class="icons">
-	    <a href="http://twitter.com" class="icons__item icons__item_fon"><i class="fontello fontello-twitter"></i></a>
-	    <a href="http://facebook.com" class="icons__item icons__item_fon"><i class="fontello fontello-face-book"></i></a>
-	    <a href="http://odnoklassniki.ru" class="icons__item icons__item_fon"><i class="fontello fontello-odnoklassniki"></i></a>
-	    <a href="http://vcontakte.com.ua" class="icons__item icons__item_fon"><i class="fontello fontello-vcontakte"></i></a>
-	    <a href="skype:+38(093)6084458?call" class="icons__item icons__item_fon"><i class="fontello fontello-mobile"></i></a>
-	    <a href="skype:andrei_ivashkevich" class="icons__item icons__item_fon"><i class="fontello fontello-skype"></i></a>
-	    <a href="mailto:Andrii_ivashkevych@epam.com" class="icons__item icons__item_fon"><i class="fontello fontello-mail"></i></a>
-	  </nav>
-	  <h3>Copyright by Andrij Ivashkevych</h3>
-  </section>
-  <!--End Contact Details-->
-</aside>
- <!--End Tags-->
-</footer>
-<!--End Footer-->
+        <section class="headings">
+            <h2>Tags</h2>
+            <nav class="vertical">
+                <a class="vertical__link" href="reflection.html"><i>Reflections</i></a>
+                <a class="vertical__link" href="page-proofs.html"><i>Page proofs</i></a>
+                <a class="vertical__link" href="ie.html"><i>IE</i></a>
+                <a class="vertical__link" href="#"><i>...1...</i></a>
+                <a class="vertical__link" href="#"><i>...2...</i></a>
+                <a class="vertical__link" href="#"><i>...3...</i></a>
+                <a class="vertical__link" href="#"><i>...4...</i></a>
+                <a class="vertical__link" href="#"><i>...5...</i></a>
+                <a class="vertical__link" href="#"><i>...6...</i></a>
+                <a class="vertical__link" href="#"><i>...7...</i></a>
+                <a class="vertical__link" href="#"><i>...8...</i></a>
+                <a class="vertical__link" href="#"><i>...9...</i></a>
+                <a class="vertical__link" href="#"><i>...10...</i></a>
+                <a class="vertical__link" href="#"><i>...11...</i></a>
+                <a class="vertical__link" href="#"><i>...12...</i></a>
+                <a class="vertical__link" href="#"><i>...13...</i></a>
+                <a class="vertical__link" href="#"><i>...14...</i></a>
+                <a class="vertical__link" href="#"><i>...15...</i></a>
+                <a class="vertical__link" href="#"><i>...16...</i></a>
+                <a class="vertical__link" href="#"><i>...17...</i></a>
+                <a class="vertical__link" href="#"><i>...18...</i></a>
+                <a class="vertical__link" href="#"><i>...19...</i></a>
+                <a class="vertical__link" href="#"><i>...20...</i></a>
+                <a class="vertical__link" href="#"><i>...21...</i></a>
+                <a class="vertical__link" href="#"><i>...22...</i></a>
+                <a class="vertical__link" href="#"><i>...23...</i></a>
+                <a class="vertical__link" href="#"><i>...24...</i></a>
+            </nav>
+        </section>
+    </aside>
+    <!--Right SideBar Tags-->
+    <footer class="footer">
+        <aside>
+            <section class="footer_links">
+                <nav class="icons">
+                    <a href="http://twitter.com" class="icons__item icons__item_fon"><i class="fontello fontello-twitter"></i></a>
+                    <a href="http://facebook.com" class="icons__item icons__item_fon"><i class="fontello fontello-face-book"></i></a>
+                    <a href="http://odnoklassniki.ru" class="icons__item icons__item_fon"><i class="fontello fontello-odnoklassniki"></i></a>
+                    <a href="http://vcontakte.com.ua" class="icons__item icons__item_fon"><i class="fontello fontello-vcontakte"></i></a>
+                    <a href="skype:+38(093)6084458?call" class="icons__item icons__item_fon"><i class="fontello fontello-mobile"></i></a>
+                    <a href="skype:andrei_ivashkevich" class="icons__item icons__item_fon"><i class="fontello fontello-skype"></i></a>
+                    <a href="mailto:Andrii_ivashkevych@epam.com" class="icons__item icons__item_fon"><i class="fontello fontello-mail"></i></a>
+                </nav>
+                <h3>Copyright by Andrij Ivashkevych</h3>
+            </section>
+        </aside>
+    </footer>
+</div>
+<!--End class wrapper-->
+<!--Beginning script for validate comment form-->
+<script>
+    $(document).ready(function(){
+        $('#comment-form').validate({
+            rules:  {
+                name:  {  required: true, rangelength: [5, 10]  },
+                email:  {  required: true, email: true  },
+                comment:  {  required: true, rangelength:[2, 100] }
+            },
+            messages:	{
+                name:	{  required: "Please, enter your name.", rangelenth: "Your name need to has from 5 to 10 symbols."  },
+                email:	{  required: "Please, enter your email.",  email: "Please, enter your real email."  },
+                comment:  {  required: "Please, enter your comment.", rangelength: "Your comment need to has 2 or 100 symbols."  }
+            }
+        });
+    });
+</script>
+<!--End script for validate comment form-->
+</body>
 </html>

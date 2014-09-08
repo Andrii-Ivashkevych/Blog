@@ -8,6 +8,24 @@ header {
     margin: 0 auto;
     background: lightgrey;
 }
+.comments header  {
+  width: 635px;
+  height: 30px;
+  margin-top: 15px;
+  text-align: justify;
+  padding-top: 15px;
+  padding-left: 15px;
+  background: green;
+}
+.comments p  {
+  width: 635px;
+  height: 30px;
+  margin-top: 0px;
+  text-align: justify;
+  padding-top: 15px;
+  padding-left: 15px;
+  background: blue;
+}
 .logotype  {
   font-size: 28px;
   float: left;
