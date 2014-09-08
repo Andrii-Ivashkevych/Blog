@@ -199,3 +199,27 @@ h3  {
   line-height: 25px;
   margin-right: 25px;
 }
+
+
+.comments-container  {
+  width: 650px;
+  overflow: hidden;
+}
+.invitation  {
+  display: block;
+  font-size: 16px;
+  padding: 15px 0 5px 5px;
+  color: rgb(119, 104, 71);
+}
+label  {
+  margin-left: 10px;
+  color: rgb(119, 104, 71);
+}
+.formControl>div  {
+  padding: 5px 0 5px 0;
+}
+.add-comment  {
+  width: 80px;
+  height: 35px;
+  color: rgb(119, 104, 71);
+}

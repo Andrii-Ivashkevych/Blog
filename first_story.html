@@ -64,23 +64,41 @@
               <header>Comment from <a href="#">Author name</a> at <time datetime="2014-09-08T12:50Z">12:50 on 9 September 2014</time></header>
               <p>In this field we add some text.</p>
             </article>
-            <!--End commnet-->
+            <!--End comment-->
+
+                <!--Beginning comment-->
+                <article class="comments">
+                    <header>Comment from <a href="#">Author name</a> at <time datetime="2014-09-08T12:50Z">12:50 on 9 September 2014</time></header>
+                    <p>In this field we add some text.</p>
+                </article>
+                <!--End commnet-->
+
+                <!--Beginning comment-->
+                <article class="comments">
+                    <header>Comment from <a href="#">Author name</a> at <time datetime="2014-09-08T12:50Z">12:50 on 9 September 2014</time></header>
+                    <p>In this field we add some text.</p>
+                </article>
+                <!--End commnet-->
 
             <!--Beginning comment form-->
                 <div id="comments-container" class="comments-container">
                 </div>
                 <form name="comment-form" id="comment-form" class="formControl">
-                    <label for="comment-form" class="invitation">Please, enter your comment</label>
+                    <label for="comment-form" class="invitation">Leave a Reply</label>
                     <div>
                         <input 	name="name" type="text" id="user-name" class="user-name" placeholder="Enter your name" class="required" title="Please, enter your name."/>
-                        <label for="user-name">Your name</label>
+                        <label for="user-name">Name</label>
                     </div>
                     <div>
                         <input 	name="email" type="email" id="user-email" class="user-email" placeholder="Enter your email" class="required" title="Please, enter your email."/>
-                        <label for="user-name">Your email</label>
+                        <label for="user-name">Email</label>
                     </div>
                     <div>
-                        <textarea 	id="comment-text" name="comment" class="user-comment" placeholder="Enter your comment" class="required">
+                        <input 	name="url" type="url" id="url" class="url" placeholder="Enter URL your Web-site" class="required" title="Please, enter URL your WEb-site."/>
+                        <label for="url">Web-site</label>
+                    </div>
+                    <div>
+                        <textarea 	id="comment-text" name="comment" class="user-comment" placeholder="Enter your comment" class="required" cols="35" rows="5">
                         </textarea>
                     </div>
                     <div>
