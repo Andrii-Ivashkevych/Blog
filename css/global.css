@@ -1,55 +1,32 @@
-.wrapper_page  {
-  width: 960px;
-  margin: 0 auto;
-}
-.header  {
-  width: 960px;
-  height: 50px;
-  margin: 0 auto;
-  background: #F0F0F0;
-}
 .wrapper  {
   margin: auto;
   width: 960px;
 }
-.wrapper__logo  {
-  text-decoration: none;
-  cursor: pointer;
+header {
+    width: 960px;
+    height: 50px;
+    margin: 0 auto;
+    background: lightgrey;
+}
+.logotype  {
+  font-size: 28px;
   float: left;
-  margin-left: 110px;
+  margin-left: 55px;
+}
+.author  {
+  font-size: 24px;
+  margin-left: 275px;
+}
+a.author {
+  text-decoration: none;
+}
+.logotype, .author  {
   letter-spacing: -1px;
-  color: #B80000;
+  color: rgb(119, 104, 71);
   text-shadow: 2px 2px 1px rgba(0, 0, 0, .25);
 }
-.wrapper__logo i  {
-  font-size: 28px;
-  font-family: Helvetica, Verdana, sans-serif;
-  color: rgb(119, 104, 71);
-  position: relative;
-  top: .18em;
-  display: inline-block;
-  text-shadow: none;  
-}
-.wrapper__logo i:hover  {
-  background: rgb(119, 104, 71);
-  color: rgb(255,255,255);
-  padding: 2px;
-}
-.wrapper__logo .logo__author  {
-  font-size: 24px;
-  font-family: Helvetica, Verdana, sans-serif;
-  color: rgb(119, 104, 71);
-  margin-top: .75em;
-  display: inline-block;
-  text-shadow: none;
-  left: -20px;
-}
-
 .search  {
-  display: inline-block;
-  margin-top: 1.75em; 
-  border: 1.5px solid rgb(119, 104, 71);;
-  
+  margin-left: 118px;
 }
 .content  {
   width: 650px;

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head>
   <title>Blog of Andrij Ivashkevych</title>
   <meta charset="UTF-8">
@@ -13,25 +13,27 @@
     document.createElement("footer");
   </script>-->
 </head>
-  <header class="header">
-    <div class="wrapper">
-      <h1 class="wrapper__logo">Andrij Ivashkevych</h1>
-       <nav>
-	     <a href="about_author.html" class="wrapper__logo"><i class="wrapper__logo logo__author">About author</i></a>
-         <input id="search" type="text" class="search" placeholder="Search">
-       </nav>
-    </div>
-  </header>
-  <div class="wrapper_page">
+<body>
+
+<!--Beginning class wrapper-->
+  <div class="wrapper">
+    <header>
+      <h1 class="logotype">Andrij Ivashkevych</h1>
+      <nav>
+        <a href="author.html" class="author">About author</a>
+        <input type="text" id="search" class="search" placeholder="Search">
+      </nav>
+    </header>
+<!--Beginning class content. This class has general content.-->
     <main class="content">
       <section>
         <article>
           <h2>First story</h2>
 	      <p class="publication-data" data-time="15-07-14">July by 15 2014</p>
 	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id lacus ut lacus interdum 
-	            blandit. Proin laoreet mattis vulputate. Vivamus porttitor ut elit sit amet semper. Fusce bibendum commodo 
-	            sodales. Maecenas ut massa non augue facilisis faucibus sit amet ut massa. Fusce pharetra blandit lectus, at ullamcorper 
-	            mi fringilla non. Phasellus placerat enim et elit rutrum, nec imperdiet ante lobortis.</p>
+	         blandit. Proin laoreet mattis vulputate. Vivamus porttitor ut elit sit amet semper. Fusce bibendum commodo
+	         sodales. Maecenas ut massa non augue facilisis faucibus sit amet ut massa. Fusce pharetra blandit lectus, at ullamcorper
+	         mi fringilla non. Phasellus placerat enim et elit rutrum, nec imperdiet ante lobortis.</p>
 	    </article>
       <section>
 	    <nav class="find-comments">
@@ -39,15 +41,15 @@
 		  <a href="first_story.html">comments</a>
 		</nav>
 	  </section>
-          <hr class="short">
+      <hr class="short">
       </section>
-	  <aside>
-	    <nav class="horizontal">
-	      <a class="horizontal__link" href="reflection.html"><i>Reflections</i></a>
-	      <a class="horizontal__link" href="page-proofs.html"><i>Page proofs</i></a>
-		  <a class="horizontal__link" href="ie.html"><i>IE</i></a>
-	    </nav>
-	  </aside>
+	    <aside>
+	      <nav class="horizontal">
+	        <a class="horizontal__link" href="reflection.html"><i>Reflections</i></a>
+	        <a class="horizontal__link" href="page-proofs.html"><i>Page proofs</i></a>
+		    <a class="horizontal__link" href="ie.html"><i>IE</i></a>
+	      </nav>
+	    </aside>
 	  <section class="social_links">
 	    <nav class="icons">
 	      <a href="http://twitter.com" class="icons__item icons__item_fon"><i class="fontello fontello-twitter"></i></a>
@@ -56,15 +58,15 @@
 	      <a href="http://vcontakte.com.ua" class="icons__item icons__item_fon"><i class="fontello fontello-vcontakte"></i></a>
 		 </nav>
 	  </section>
-<hr>
+      <hr>
       <section>
         <article>
           <h2>Second story</h2>
 	      <p class="publication-data" data-time="15-07-14">July by 15 2014</p>
 	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id lacus ut lacus interdum 
-	            blandit. Proin laoreet mattis vulputate. Vivamus porttitor ut elit sit amet semper. Fusce bibendum commodo 
-	            sodales. Maecenas ut massa non augue facilisis faucibus sit amet ut massa. Fusce pharetra blandit lectus, at ullamcorper 
-	            mi fringilla non. Phasellus placerat enim et elit rutrum, nec imperdiet ante lobortis.</p>
+	         blandit. Proin laoreet mattis vulputate. Vivamus porttitor ut elit sit amet semper. Fusce bibendum commodo
+	         sodales. Maecenas ut massa non augue facilisis faucibus sit amet ut massa. Fusce pharetra blandit lectus, at ullamcorper
+	         mi fringilla non. Phasellus placerat enim et elit rutrum, nec imperdiet ante lobortis.</p>
 	    </article>
         <section>
           <nav class="find-comments">
@@ -73,7 +75,7 @@
           </nav>
         </section>
           <hr class="short">
-        </section>
+      </section>
 	  <aside>
 	    <section>
 	      <nav class="horizontal">
@@ -94,6 +96,9 @@
 <hr>
       </section>
     </main>
+<!--End class content-->
+
+<!--Right SideBar Heading-->
     <aside>
       <section class="headings">
         <h2 >Heading</h2>
@@ -105,6 +110,8 @@
 		<hr class="middle">
       </section>
     </aside>
+<!--End right SideBar Heading-->
+<!--Right SideBar Tags-->
     <aside>
       <section class="headings">
         <h2>Tags</h2>
@@ -139,7 +146,7 @@
 	    </nav>
       </section>
     </aside>
-</div>
+<!--Right SideBar Tags-->
 <footer class="footer">
  <aside>
 	<section class="footer_links">
@@ -156,4 +163,7 @@
   </section>
 </aside>
 </footer>
+</div>
+<!--End class wrapper-->
+</body>
 </html>
