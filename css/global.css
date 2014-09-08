@@ -119,9 +119,6 @@ a.author {
   content: "";
   width: 50px;
 }
-/*.headings  {
-  padding-left: 50px;
-}*/
 .headings__link  {
   clear: both;
   width: 260px;
@@ -142,11 +139,15 @@ a.author {
   color: #FFFFFF;
   background: #666633;
 }
+h2.title  {
+  margin-left: 25px;
+}
 h2  {
   font: normal 22px/18px Helvetica, Verdana, sans-serif;
   font-variant: small-caps;
   font-weight: bold;
   padding: 10px 0px 10px 0px;
+  color: rgb(119, 104, 71);
 }
 hr  {
   width: 100%;
@@ -166,6 +167,7 @@ p  {
   text-align: justify;
 }
 .publication-data  {
+  padding: 10px 0px 10px 0px;
   color: #009900;
 }
 h3  {
