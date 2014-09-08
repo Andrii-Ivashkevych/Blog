@@ -44,6 +44,7 @@
   text-shadow: none;
   left: -20px;
 }
+
 .search  {
   display: inline-block;
   margin-top: 1.75em; 
@@ -177,6 +178,11 @@ hr  {
 .short  {
   width: 230px;
   margin-left: 0;
+  color: rgb(119, 104, 71);
+}
+.middle  {
+  width: 260px;
+  margin-right: 0;
   color: rgb(119, 104, 71);
 }
 p  {
