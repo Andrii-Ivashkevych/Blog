@@ -1,0 +1,31 @@
+article, aside, details, figcaption,
+figure, footer, header, hgroup, menu,
+nav, section  {
+  display: block;
+}
+@media screen and (max-width: 980px) {
+  .wrapper {
+    width: 95%;
+  }
+  .content {
+    width: 60%;
+  }
+  .headings {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 650px) {
+    header {
+        height: auto;
+    }
+    .content {
+        width: auto;
+        float: none;
+        margin: 20px 0;
+    }
+    .headings {
+        width: 100%;
+        float: none;
+        margin: 0;
+    }
+}

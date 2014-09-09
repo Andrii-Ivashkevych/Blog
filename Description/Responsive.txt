@@ -1,8 +1,50 @@
 ﻿1. Контейнер страницы имеет ширину 960рх, больше 1024рхю
 2. Для проверки ширины используется media queries, если ширина меньше 960рх, в этом случае макет становится резиновым, вместо фиксированной ширины.
-3. Если ширина браузера меньше 650 зч, то контейнер с классом class="content" растягивается на всю ширину окна, а right SideBar c class="headings" смещается под контейнер class="content".
-4. При размере экрана меньше 960 рх (резиновый макет).
-Правила для резинового макета:
+3. Если ширина браузера меньше 650 px, то контейнер с классом class="content" растягивается на всю ширину окна, а right SideBar c class="headings" смещается под контейнер class="content".
+4. Сбрасываем html элементы в block:
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block;
+}
+5. Описываем основную структуру в CSS (см. global.css).
+6. Добавляем в секцию head <!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+  <![endif]--> для того, чтобы старые версии ИЕ понимали новые элементы. 
+7. Подключаем CSS media queries.
+8. <link rel="stylesheet" href="css/media-queries.css">
+9. При размере экрана меньше 960 рх (резиновый макет).
+10. Правила для резинового макета при размере экрана меньше 980рх:
 - wrapepr: 95%;
 - content: 60%;
 - headings: 30%.
+11. Добавляем в media-queries.css:
+@media screen and (max-width: 980px) {
+  .wrapper {
+    width: 95%;
+  }
+  .content {
+    width: 60%;
+  }
+  .headings {
+    width: 30%;
+  }
+}
+12. Размер экрана меньше 650px (одноколоночный макет)
+Задаем CSS правила для размера экрана меньше 650px.
+header = сбрасываем высоту в auto;
+content = устанавливаем ширину auto (это растянет контейнер на всю ширину)
+headings = устанавливаем ширину 100% и убираем float.
+@media screen and (max-width: 650px) {
+   header {
+      height: auto;
+   }
+   .content {
+      width: auto;
+      float: none;
+      margin: 20px 0;
+   }
+   .headings {
+      width: 100%;
+      float: none;
+      margin: 0;
+   }
+}
