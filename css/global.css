@@ -1,21 +1,43 @@
 body  {
-  width: 980px
+  width: 100%;
   margin: 0 auto;
   font: 100% normal Helvetica, Verdana, sans-serif;;
 
 }
 .wrapper  {
   margin: 0 auto;
-  width: 980px;
+  width: 96%;
 }
 header {
-    width: 980px;
-    height: 50px;
-    margin: 0 auto;
-    background: lightgrey;
+  width: 100%;
+  height: 50px;
+  margin: 0 auto;
+  background: lightgrey;
+}
+.content  {
+  /*width: 800px;*/
+  width: 66.3265306122449%;
+  height: 88.70967741935484%;
+  /*margin: auto;*/
+  /*left: 100px;*/
+  padding-left: 25px;
+  float: left;
+}
+.headings {
+  display: table;
+  content: "";
+  width: 30%
+}
+.footer  {
+  clear: both;
+  width: 100%;
+  height: 55px;
+  margin: 0 auto;
+  background: #666666;
 }
 .comments header  {
-  width: 635px;
+  /*width: 635px;*/
+  width: 67.49574829931973%;
   height: 30px;
   margin-top: 15px;
   text-align: justify;
@@ -40,8 +62,9 @@ header {
 }
 .author  {
   /*font-size: 24px;*/
-  font-size: 1.166666666666667em;
-  margin-left: 275px;
+  font-size: 1.5em;/*24px/16px*/
+  /*margin-left: 375px;*/
+  margin-left: 30%;
 }
 a.author {
   text-decoration: none;
@@ -52,20 +75,9 @@ a.author {
   text-shadow: 2px 2px 1px rgba(0, 0, 0, .25);
 }
 .search  {
-  margin-left: 118px;
-}
-.content  {
-  width: 650px;
-  margin: auto;
-  left: 100px;
-  float: left;
-}
-.footer  {
-  clear: both;
-  width: 100%;
-  height: 55px;
-  margin: 0 auto;
-  background: #666666;
+  /*margin-left: 118px;*/
+  width: 15%;
+  margin-right: 4%;
 }
 .horizontal  {
   width: 300px;
@@ -108,8 +120,8 @@ a.author {
 .vertical  {
   float: left;
   width: 260px;
-  height:75px;
-  margin-left: 50px;
+  height:230px;
+  margin-left: 35%;
 }
 .vertical:after  {
  clear: both;
@@ -140,20 +152,14 @@ a.author {
   transition: top 1s ease-out 0.5s;
   transform: scale(1.5);
 }
-.headings  {
-  display: table;
-  content: "";
-  width: 50px;
-}
 .headings__link  {
   clear: both;
-  /*width: 260px;*/
-  width: 8.387096774193548%
-  margin-left: 50px;
   text-align: right;
+  margin-left: 20%;
 }
 .headings h2  {
   text-align: center;
+  margin-left: 150px;
 }
 .headings__reference  {
   text-decoration: none;
@@ -186,7 +192,7 @@ hr  {
   color: rgb(119, 104, 71);
 }
 .middle  {
-  width: 260px;
+  width: 240px;
   margin-right: 0;
   color: rgb(119, 104, 71);
 }
@@ -208,8 +214,6 @@ h3  {
   line-height: 25px;
   margin-right: 25px;
 }
-
-
 .comments-container  {
   width: 650px;
   overflow: hidden;

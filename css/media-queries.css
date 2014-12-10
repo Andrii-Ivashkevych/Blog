@@ -4,15 +4,25 @@ nav, section  {
   display: block;
 }
 @media screen and (max-width: 980px) {
-  .wrapper {
-    width: 95%;
-  }
-  .content {
-    width: 60%;
-  }
-  .headings {
-    width: 30%;
-  }
+    .wrapper {
+      width: 96%;
+    }
+    .content {
+      width: 60%;
+    }
+    .headings {
+      width: 30%;
+    }
+    .author  {
+      /*position: absolute;
+      top: 2%;
+      right: 25%;*/
+    }
+}
+    .search  {
+      position: absolute;
+      top: 4%;
+      right: 5%;
 }
 @media screen and (max-width: 650px) {
     header {
